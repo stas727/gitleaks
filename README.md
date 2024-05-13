@@ -20,10 +20,10 @@ git config gitleaks.enabled false
 
 ## Integrate
 
-You need to add in your pre commit 
-File must be in .git/hooks/pre-commit
-If not, there must be a sample file (pre-commit.sample)
-After you need to add this in pre-commit file :
+You need to add in your pre commit code below.  
+You "pre commit file" must be in .git/hooks/pre-commit. 
+If not, there must be a sample file (pre-commit.sample). 
+After add this:
 
 ```console
 getleaks_check () {
